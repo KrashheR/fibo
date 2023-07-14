@@ -5,10 +5,10 @@
   margin: 15px 0;
   font-weight: 600;
   font-size: 17px;
-  gap: 30px;
+  gap: 35px;
 
   &-call-btn{
-    padding: 16px 28px;
+    padding: 14px 28px;
     border: none;
     border-radius: 28px;
     font-size: 14px;
@@ -34,6 +34,7 @@
     &-review{
       display: flex;
       font-size: 13px;
+      font-weight: 600;
       gap: 22px;
     }
   }

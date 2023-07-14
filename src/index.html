@@ -43,40 +43,66 @@
       </div>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Навбар</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                <a class="nav-link" aria-current="page" href="index.html">Паста</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ссылка</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Выпадающий список
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Действие</a></li>
-                  <li><a class="dropdown-item" href="#">Другое действие</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
-                </ul>
+                <a class="nav-link" aria-current="page" href="index.html">Пицца</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Отключенная</a>
+                <a class="nav-link" aria-current="page" href="index.html">Салаты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Десерты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Напитки</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
-              <button class="btn btn-outline-success" type="submit">Поиск</button>
-            </form>
           </div>
+
         </div>
       </nav>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+        Войти
+      </button>
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content login">
+            <div class="modal-header ">
+              <h1 class="modal-title login-title" id="loginModalLabel">Вход на сайт</h1>
+              <button type="button" class="btn-close login-btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="inputTelephone" class="col-form-label">Номер телефона</label>
+                </div>
+                <div class="col-auto">
+                  <input type="tel" id="inputTelephone" class="form-control" aria-labelledby="telephoneHelpInline">
+                </div>
+              </div>
+              <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="inputTelephone" class="col-form-label">Код из смс</label>
+                </div>
+                <div class="col-auto">
+                  <input type="tel" id="inputTelephone" class="form-control" aria-labelledby="telephoneHelpInline">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary">Сохранить изменения</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </header>

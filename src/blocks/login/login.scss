@@ -9,4 +9,22 @@
   &-btn-close {
     color: $color-yellow;
   }
+
+  &-btn-change {
+    border: none;
+    padding: 0;
+    background: none;
+    color: $color-yellow;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+
+  &-form {
+    display: flex;
+    gap: 20px;
+  }
+
+  &-code {
+    display: hidden;
+  }
 }
